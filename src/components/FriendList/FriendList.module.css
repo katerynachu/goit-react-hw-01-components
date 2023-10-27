@@ -1,0 +1,21 @@
+.friend_list{
+    padding: 50px 0;
+    background-color: #716b6bbe;
+}
+
+.friend_item{
+    padding: 10px 20px;
+    background-color: white;
+    max-width: 150px;
+    margin-left:auto;
+    margin-right: auto;
+    display:flex;
+    gap: 5px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.friend_item:not(:last-child){
+    margin-bottom: 20px;
+}

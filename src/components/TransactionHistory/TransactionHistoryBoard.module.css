@@ -1,0 +1,24 @@
+.history{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+.head{
+    background-color: aqua;
+}
+
+.category{
+    padding: 15px 0;
+    border: 2px grey solid;
+}
+.area{
+    height: 40px;
+}
+.area:nth-child(even) {
+    background-color: grey;
+  }
+  
+  /* Apply white background to odd 'area' elements */
+  .area:nth-child(odd) {
+    background-color: white;
+  }
